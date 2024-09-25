@@ -15,7 +15,7 @@ export const Button = ({ title, mode = "primary", onClick }: Props) => {
     secondary: {
       backgroundColor: "transparent",
       color: "primary.500",
-      border: "none",
+      border: "1px dashed #e91e63",
     },
     tertiary: {
       backgroundColor: "transparent",
